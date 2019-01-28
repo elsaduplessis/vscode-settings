@@ -1,1 +1,151 @@
-// Empty
+{
+    // https://code.visualstudio.com/docs/languages/overview#_changing-the-language-for-the-selected-file
+    "files.associations": {
+        "*.Rnw": "tex",
+        "*.rmd": "markdown"
+    },
+
+    // Theme and colours:
+    "workbench.colorTheme": "Dracula",
+
+    // Enable lintr
+    // "r.lintr.enabled": false,
+    
+    // DO NOT autodetect indentation
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.renderIndentGuides": true,
+
+    // Editor settings:
+    "editor.fontSize": 15,
+    "editor.fontFamily": "monospace",
+    "window.zoomLevel": -1,
+    "workbench.activityBar.visible": true,
+    "workbench.colorCustomizations": {
+        "tab.activeBorder": "#cedee4",
+                        // "tab.inactiveBackground": "#7a7a34"
+        "tab.inactiveBackground": "#000000",                  
+        // integrated terminal colour settings (don't change background colour):      
+        "terminal.foreground": "#ffffff",
+        "terminal.border": "#ffffff",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiRed": "#c23621",
+        "terminal.ansiGreen": "#25bc24",
+        "terminal.ansiYellow": "#adad27",
+        "terminal.ansiBlue": "#492ee1",
+        "terminal.ansiMagenta": "#d338d3",
+        "terminal.ansiCyan": "#33bbc8",
+        "terminal.ansiWhite": "#cbcccd",
+        "terminal.ansiBrightBlack": "#818383",
+        "terminal.ansiBrightRed": "#fc391f",
+        "terminal.ansiBrightGreen": "#31e722",
+        "terminal.ansiBrightYellow": "#eaec23",
+        "terminal.ansiBrightBlue": "#5833ff",
+        "terminal.ansiBrightMagenta": "#f935f8",
+        "terminal.ansiBrightCyan": "#14f0f0",
+        "terminal.ansiBrightWhite": "#e9ebeb",
+        },
+    "editor.tokenColorCustomizations": {
+        "comments": "#6b9960",
+        "textMateRules": [
+            {
+                "scope": "text.html.markdown.journal.task.open.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.marker",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.open.text",
+                "settings": {}
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.marker",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.text",
+                "settings": {
+                    "foreground": "#AAAAAA"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.task.completed.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.memo.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.scope",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.keyword",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "text.html.markdown.journal.link.bullet",
+                "settings": {
+                    "foreground": "#FFFF00"
+                }
+            }
+        ]
+    },
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "cSpell.userWords": [
+        "genomics",
+        "hydroxyproline",
+        "metabolome",
+        "multicolumn",
+        "neuropathy"
+    ],
+    "cSpell.language": "en:GB",
+    "journal.base": "/home/elsa/repos_uib/directories/_notes",
+    "journal.ext": "adoc",
+    "journal.tpl-entry": "# ${weekday}, ${localDate} ## Tasks ## Notes",
+    "files.watcherExclude": {
+        "**/.git/objects/**": false,
+        "**/.git/subtree-cache/**": false,
+        "**/node_modules/**": false
+    },
+    "sync.gist": ""
+    // For which languages indent-rainbow should be activated (if empty it means all).
+    // "indentRainbow.includedLanguages": [r] // for example ["nim", "nims", "python"]
+}

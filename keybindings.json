@@ -1,1 +1,7 @@
-// Empty
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "right ctrl+alt+",
+        "command": "cursorLineEnd"
+    }
+]
